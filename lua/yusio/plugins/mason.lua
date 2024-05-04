@@ -2,7 +2,7 @@ return {
     {
         "williamboman/mason.nvim",
         config = function()
-            require("mason").setup({}) 
+            require("mason").setup({})
         end
     },
     {
@@ -10,7 +10,7 @@ return {
         config = function()
             require("mason-lspconfig").setup {
                 ensure_installed = { "lua_ls" },
-            } 
+            }
         end
     }
 }
